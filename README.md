@@ -11,11 +11,12 @@ Students should use Visual Studio code and the Web languages (HTML+CSS+JS) to so
 
 ## learnJS tool
 
-As an alternative (or a complement) students can opt by using the learnJS tool (https://rqueiros.github.io/learnjs/). The main benefits of using learnJS is to be able to solve the exercises and have automatic feedback on the success of the resolution. The tool is in Beta stage, so any issue that you find please report to Ricardo Queirós (ricardoqueiros@esmad.ipp.pt).
+As an alternative (or a complement) students can opt by using the learnJS tool (https://rqueiros.github.io/learnjs/). The main benefits of using learnJS is to be able to solve the exercises and have automatic feedback on the success of the resolution. Be aware that the tool is in beta stage, so any issue founded please report to Ricardo Queirós.
 
 Good Work!
 
 ## Contacts
 
 Ricardo Queirós <ricardoqueiros@esmad.ipp.pt>
+
 Mário Pinto <mariopinto@esmad.ipp.pt>
