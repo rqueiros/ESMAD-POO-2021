@@ -17,5 +17,4 @@ Good Work!
 
 ## Contacts
 
-Ricardo Queirós <ricardoqueiros@esmad.ipp.pt>
-Mário Pinto <mariopinto@esmad.ipp.pt>
+Ricardo Queirós <ricardoqueiros@esmad.ipp.pt> & Mário Pinto <mariopinto@esmad.ipp.pt>
