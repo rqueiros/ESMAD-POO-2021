@@ -15,4 +15,7 @@ As an alternative (or a complement) students can opt by using the learnJS tool (
 
 Good Work!
 
-Professors: Ricardo Queirós and Mário Pinto
+## Contacts
+
+Ricardo Queirós <ricardoqueiros@esmad.ipp.pt>
+Mário Pinto <mariopinto@esmad.ipp.pt>
