@@ -7,7 +7,7 @@ This repo will be used to store all the exercise sheets from the Object-Oriented
 ## Use
 
 Professors will store an exercise sheet to be solved on a weekly basis.
-Students should use Visual Studio code and the Web languages (HTML+CSS+JS) to solve the exercises. 
+Students should use Visual Studio code and the Web languages (HTML+CSS+JS) learned in the course to solve the exercises. 
 
 ## learnJS tool
 
@@ -18,5 +18,4 @@ Good Work!
 ## Contacts
 
 Ricardo Queirós <ricardoqueiros@esmad.ipp.pt>
-
 Mário Pinto <mariopinto@esmad.ipp.pt>
