@@ -12,8 +12,11 @@ Students should use Visual Studio code and the Web languages (HTML+CSS+JS) learn
 ## Exercise Sheets
 
 1. EX01 - VARIABLES, DATATYPES AND OPERATORS (SOLVED)
-2. EX02 - CONDITIONALS AND LOOPS
-3. EX03 - LOOPS
+2. EX02 - CONDITIONALS AND LOOPS (SOLVED)
+3. EX03 - LOOPS (SOLVED)
+4. EX04 - INTRODUCTION TO DOM 
+5. EX05 - EVENTS 
+
 
 ## learnJS tool
 
