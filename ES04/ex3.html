@@ -10,20 +10,52 @@
 
 <body>
 
-    <table>
-        <tr>
-            <th>escola</th>
-            <th>local</th>
-        </tr>
-        <tr>
-            <td>ESMAD</td>
-            <td>Vila do Conde</td>
-        </tr>
-    </table>
 
     <script>
+        // alinea a
+        // Criação de todos os nodos
+        /*  const table = document.createElement("table")
+         const firstTr = document.createElement("tr")
+         const secondTr = document.createElement("tr")
+         const firstTh = document.createElement("th")
+         const secondTh = document.createElement("th")
+         const firstTd = document.createElement("td")
+         const secondTd = document.createElement("td")
+         const firstText = document.createTextNode("escola")
+         const secondText = document.createTextNode("local")
+         const thirdText = document.createTextNode("ESMAD")
+         const fourthText = document.createTextNode("Vila do Conde")
+ 
+         // Associação dos nodos de tipo texto aos elementos <th> e <td>
+         firstTh.appendChild(firstText)
+         secondTh.appendChild(secondText)
+         firstTd.appendChild(thirdText)
+         secondTd.appendChild(fourthText)
+ 
+         // Associação dos elementos <th> e <td> aos elementos <tr>
+         firstTr.appendChild(firstTh)
+         firstTr.appendChild(secondTh)
+         secondTr.appendChild(firstTd)
+         secondTr.appendChild(secondTd)
+ 
+         // Associação dos elementos <tr> ao elemento <table>
+         table.appendChild(firstTr)
+         table.appendChild(secondTr)
+ 
+         // Associação do elemento <table> ao elemento <body>
+         document.body.appendChild(table)
+  */
 
-        // c) Adicione uma nova linha com o conteúdo: ISEP Porto
+
+        // alínea b
+        document.body.innerHTML +=
+            `<table><tr><th>Escola</th><th>Local</th></tr><tr><td>ESMAD</td><td>Vila Do Conde</td></tr></table>`
+
+
+
+
+
+        // alinea c - adicione uma nova linha com o conteúdo: ISEP Porto
         const table = document.querySelector('table')
         table.innerHTML += `
             <tr>
@@ -32,11 +64,11 @@
             </tr>
         `
 
-        // d) Altere o local da ESMAD para o conteúdo: Vila do Conde/Póvoa de Varzim
+        // alinea d - Altere o local da ESMAD para o conteúdo: Vila do Conde/Póvoa de Varzim
         const td = document.querySelector('td:nth-of-type(2)')
         td.innerHTML += '/Póvoa de Varzim'
 
-        // e) Remova o cabeçalho da tabela
+        // alinea e - Remova o cabeçalho da tabela
         const tbody = document.querySelector('tbody')
         const tr = document.querySelector('tr:nth-of-type(1)')
         tbody.removeChild(tr)

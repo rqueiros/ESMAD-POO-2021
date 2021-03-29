@@ -9,25 +9,50 @@
 </head>
 
 <body>
-    <!-- Atributo HTML -->
+    <!-- alinea ai - atributo HTML -->
     <input id="myButton" onclick="alert('Olá Mundo!')" type="button" value="Clica-me" />
 
+    <input type="text">
+    <p></p>
 
     <script>
-
-
-
-        // Propriedade DOM
+        // alinea aii - propriedade DOM
         document.querySelector("input").onclick = function () {
             alert('Olá Mundo!')
         }
 
-
-        // Adição de listener
-        const myButton = document.querySelector("input[type=’button’]")
-        myButton.addEventListener("click", function () {
+        // alinea aiii - adição de listener
+        /* const button = document.querySelector('input[type="button"]')
+        button.addEventListener("click", function () {
             alert('Olá Mundo!')
+        }) */
+
+        // alinea b
+        const input = document.querySelector('input[type="text"]')
+        const p = document.querySelector('p')
+        input.addEventListener('change', function () {
+            p.innerHTML = input.value
         })
+
+        const myButton = document.querySelector('input[type="button"]')
+        myButton.addEventListener("click", function () {
+            alert(`Nº de caracteres escrito é de ${input.value.length}`)
+        })
+
+        // alinea c
+        const button = document.querySelector('input[type="button"]')
+        button.addEventListener("mouseup", function () {
+            console.log("obrigado pelo clique no botão!")
+        })
+
+        // alinea d
+        window.addEventListener("load", function () {
+            // Colocar aqui todo o código JS deste ficheiro!
+            // Desta forma todo o cósigo só será executado quando 
+            // toda a página estiver carregado no DOM
+        })
+
+
 
 
     </script>
