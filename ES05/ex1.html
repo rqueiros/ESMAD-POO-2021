@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Atributo HTML -->
+    <input id="myButton" onclick="alert('Olá Mundo!')" type="button" value="Clica-me" />
+
+
+    <script>
+
+
+
+        // Propriedade DOM
+        document.querySelector("input").onclick = function () {
+            alert('Olá Mundo!')
+        }
+
+
+        // Adição de listener
+        const myButton = document.querySelector("input[type=’button’]")
+        myButton.addEventListener("click", function () {
+            alert('Olá Mundo!')
+        })
+
+
+    </script>
+</body>
+
+</html>

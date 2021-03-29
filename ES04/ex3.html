@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex3</title>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>escola</th>
+            <th>local</th>
+        </tr>
+        <tr>
+            <td>ESMAD</td>
+            <td>Vila do Conde</td>
+        </tr>
+    </table>
+
+    <script>
+
+        // c) Adicione uma nova linha com o conteúdo: ISEP Porto
+        const table = document.querySelector('table')
+        table.innerHTML += `
+            <tr>
+                <td>ISEP</td>
+                <td>Porto</td>
+            </tr>
+        `
+
+        // d) Altere o local da ESMAD para o conteúdo: Vila do Conde/Póvoa de Varzim
+        const td = document.querySelector('td:nth-of-type(2)')
+        td.innerHTML += '/Póvoa de Varzim'
+
+        // e) Remova o cabeçalho da tabela
+        const tbody = document.querySelector('tbody')
+        const tr = document.querySelector('tr:nth-of-type(1)')
+        tbody.removeChild(tr)
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex3</title>
+</head>
+
+<body>
+    <form>
+        <!-- NAME -->
+        <label for="txtName">NOME: </label>
+        <input type="text" id="txtName" required>
+        <br><br>
+
+        <!-- COURSE -->
+        <label for="">CURSO: </label>
+        <input type="radio" name="rdiCourse" value="tsiw" checked> TSIW
+        <input type="radio" name="rdiCourse" value="multimedia"> MULTIMÉDIA
+        <input type="radio" name="rdiCourse" value="tcav"> TCAV
+        <input type="radio" name="rdiCourse" value="design"> DESIGN
+        <input type="radio" name="rdiCourse" value="fotografia"> FOTOGRAFIA
+        <br><br>
+
+        <!-- PROFILE -->
+        <label for="sltProfile">PERFIL: </label>
+        <select id="sltProfile">
+            <option value="estudante">ESTUDANTE</option>
+            <option value="docente">DOCENTE</option>
+            <option value="funcionario">FUNCIONÁRIO</option>
+            <option value="outro">OUTRO</option>
+        </select>
+        <br><br>
+
+        <!-- SESSION -->
+        <label for="txtName">SESSÃO: </label>
+        <input type="checkbox" name="chkSession" value="manha"> MANHÃ
+        <input type="checkbox" name="chkSession" value="tarde"> TARDE
+        <br><br>
+
+        <!-- BUTTONS -->
+        <input type="submit" value="ADICIONAR">
+        <input type="button" value="CONTAR">
+    </form>
+    <hr>
+    <table>
+        <tr>
+            <th>NOME</th>
+            <th>CURSO</th>
+            <th>PERFIL</th>
+            <th>SESSÃO</th>
+        </tr>
+    </table>
+    <script src="ex3.js"></script>
+</body>
+
+</html>

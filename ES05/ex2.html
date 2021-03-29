@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex2</title>
+</head>
+
+<body>
+    <form>
+        <h1>GESTOR DE JOGOS</h1>
+        <!--NAME-->
+        <label for="txtName">Nome:</label>
+        <input type="text" value="abc" id="txtName" required>
+        <br>
+        <!--YEAR-->
+        <label for="txtYear">Ano:</label>
+        <input type="number" id="txtYear" required>
+        <br>
+        <!--GENRE-->
+        <label for="sltGenre">Género:</label>
+        <select id="sltGenre">
+            <option value="acao">Ação</option>
+            <option value="aventura">Aventura</option>
+            <option value="estrategia">Estratégia</option>
+            <option value="desporto" selected>Desporto</option>
+            <option value="simulacao">Simulação</option>
+        </select>
+        <br>
+        <!--COVER-->
+        <label for="txtCover">Capa:</label>
+        <input type="url" id="txtCover" value="http://xxx.pt" required>
+        <br>
+        <input type="submit" value="ADICIONAR">
+        <input type="reset" value="REPOR">
+    </form>
+    <hr>
+    <table>
+        <tr>
+            <th>NOME</th>
+            <th>ANO</th>
+            <th>GÉNERO</th>
+            <th>CAPA</th>
+            <th>OPÇÕES</th>
+        </tr>
+    </table>
+
+    <script src="ex2.js"></script>
+</body>
+
+</html>
