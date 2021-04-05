@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2buy</title>
+</head>
+
+<body>
+    <form>
+        <!--NOME-->
+        <label for="txtName">NOME: </label>
+        <input type="text" id="txtName" required>
+        <br>
+        <!--CATEGORIA-->
+        <label for="sltCategory">CATEGORIA: </label>
+        <select id="sltCategory" required>
+            <option value="">SELECIONE UMA CATEGORIA</option>
+            <option value="fruta">FRUTA</option>
+            <option value="legumes">LEGUMES</option>
+            <option value="carne">CARNE</option>
+            <option value="peixe">PEIXE</option>
+            <option value="bebida">BEBIDA</option>
+            <option value="outros">OUTROS</option>
+        </select>
+        <br>
+        <!--QUANTIDADE-->
+        <label for="txtQuantity">QUANTIDADE:</label>
+        <input type="number" id="txtQuantity" min="1" max="1000" required>
+        <br>
+        <input type="submit" value="ADICIONAR">
+    </form>
+    <hr>
+    <table>
+        <tr>
+            <th>NOME</th>
+            <th>CATEGORIA</th>
+            <th>QUANTIDADE</th>
+            <th>OPÇÕES</th>
+        </tr>
+    </table>
+    <br>
+    <!--BOTOES DE ESTATISTICA-->
+    <button id='btnCountProducts'>CONTAR GERAL</button>
+    <button id='btnCountProductsByCategory'>CONTAR POR CATEGORIA</button>
+    <button id='btnRemoveList'>LIMPAR LISTA</button>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
