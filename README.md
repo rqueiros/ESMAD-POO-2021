@@ -18,8 +18,8 @@ Students should use Visual Studio code and the Web languages (HTML+CSS+JS) learn
 5. EX05 - EVENTS (SOLVED) 
 6. EX06 - DOM & EVENTS & FORMS (SOLVED)
 7. TEST EXAMPLE (SOLVED)
-8. ES07 - OBJECTS
-9. ES08 - ARRAYS & OBJECTS
+8. ES07 - OBJECTS (SOLVED)
+9. ES08 - ARRAYS & OBJECTS (SOLVED)
 
 
 ## learnJS tool
